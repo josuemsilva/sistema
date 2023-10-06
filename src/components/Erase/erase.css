@@ -1,0 +1,65 @@
+.erase-screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+.erase-screen .container {
+  position: fixed;
+  max-width: 800px;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 4em 2em;
+  background-color: #FFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8)
+}
+
+.close {
+  color: #181c2e;
+  font-size: 1.2em;
+  background-color: #FFF;
+  border: 0;
+  border-radius: 5px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 15px;
+}
+
+.close svg {
+  margin-right: 0.6em;
+}
+
+.erase-btn {
+  background-color: #f65835;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 15px;
+  color: #FFF;
+  padding: 0.7em;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 3em;
+  transition: all ease 0.4s;
+}
+
+.erase-btn:hover {
+  transform: scale(1.1)
+}
+
+main h2 {
+  font-size: 2em;
+}
