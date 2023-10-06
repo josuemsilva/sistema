@@ -1,9 +1,9 @@
 {
+  "homepage": "https://josuemsilva.github.io/sistema",
   "name": "projeto-chamados",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://josuemsilva.github.io/sistema",
   "dependencies": {
     "date-fns": "^2.30.0",
     "firebase": "^10.4.0",
